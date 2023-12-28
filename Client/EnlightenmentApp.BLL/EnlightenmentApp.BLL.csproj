@@ -10,4 +10,11 @@
     <ProjectReference Include="..\EnlightenmentApp.DAL\EnlightenmentApp.DAL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Entities\" />
+    <Folder Include="DI\" />
+  </ItemGroup>
+
 </Project>

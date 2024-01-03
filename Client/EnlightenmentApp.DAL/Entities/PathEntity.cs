@@ -1,9 +1,8 @@
 ﻿namespace EnlightenmentApp.DAL.Entities
 {
-    public class PathEntity
+    public class PathEntity : BaseEntity
     {
         #nullable disable
-        public int Id { get; set; }
         public string Title { get; set; }
         public string Summary { get; set; }
         public int Cost { get; set; }

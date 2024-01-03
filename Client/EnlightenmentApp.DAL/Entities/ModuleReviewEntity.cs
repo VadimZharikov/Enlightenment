@@ -1,9 +1,8 @@
 ﻿namespace EnlightenmentApp.DAL.Entities
 {
-    public class ModuleReviewEntity
+    public class ModuleReviewEntity : BaseEntity
     {
         #nullable disable
-        public int Id { get; set; }
         public string UserName { get; set; }
         public int Rating { get; set; }
         public string ReviewText { get; set; }

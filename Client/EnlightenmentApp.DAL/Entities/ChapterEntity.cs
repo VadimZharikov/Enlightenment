@@ -1,9 +1,8 @@
 ﻿namespace EnlightenmentApp.DAL.Entities
 {
-    public class ChapterEntity
+    public class ChapterEntity : BaseEntity
     {
         #nullable disable
-        public int Id { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
         public bool IsCompleted {  get; set; }

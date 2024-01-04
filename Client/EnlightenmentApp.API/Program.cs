@@ -12,6 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddAutoMapper(typeof(EnlightenmentApp.API.Mapper.MappingProfile).Assembly);
 builder.Services.AddBusinessLogic(builder.Configuration);
 
 var app = builder.Build();

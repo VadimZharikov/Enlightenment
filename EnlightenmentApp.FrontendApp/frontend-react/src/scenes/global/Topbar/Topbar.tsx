@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import { Box, IconButton, useTheme } from "@mui/material";
-import { tokens } from "../../../theme";
 import { ColorModeContext } from "../../../hooks/useMode";
 import {
   LightModeOutlined,
@@ -12,7 +11,6 @@ import "./Topbar.component.css";
 
 export default function Topbar() {
   const theme = useTheme();
-  const colors = tokens(theme.palette.mode);
   const colorMode = useContext(ColorModeContext);
 
   return (
